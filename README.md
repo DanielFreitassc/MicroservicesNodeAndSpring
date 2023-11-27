@@ -1,1 +1,17 @@
 # Spring-Security-e-JWT-Tokens
+
+### Dependencias 
+```<dependencies>```
+```
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework.sucurity</groupId>
+    <artifactId>spring-security-test</artifactId>
+    <scope>test</scope>
+</dependency>
+``
+```</dependencies>```
