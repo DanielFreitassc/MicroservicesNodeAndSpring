@@ -9,7 +9,7 @@
 </dependency>
 
 <dependency>
-    <groupId>org.springframework.sucurity</groupId>
+    <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-test</artifactId>
     <scope>test</scope>
 </dependency>
