@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: first-api-example
+          uri: https://httpbin.org/
+          predicates:
+            - Path=/get
+          filters:
+            - SetPath=/get
+  datasource:
+    url: jdbc:h2:mem:api
+    driverClassName: org.h2.Driver
+    username: admin
+    password: admin
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
