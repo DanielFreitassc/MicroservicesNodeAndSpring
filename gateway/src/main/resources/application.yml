@@ -18,3 +18,16 @@ spring:
   h2:
     console:
       enabled: true
+  main:
+    web-application-type: REACTIVE
+    allow-bean-definition-overriding: true
+api:
+  security:
+    token:
+      secret: ${JWT_SECRET:my-secret-key}
+admin:
+  username: admin
+  password: admin
+
+
+  
